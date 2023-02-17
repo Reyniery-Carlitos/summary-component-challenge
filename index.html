@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+
+<body class="flex flex-col justify-center items-center">
+  <div
+    class="flex flex-col justify-center items-center md:flex-row md:pt-5 md:gap-5 md:w-[45%] md:rounded-xl md:shadow-xl md:shadow-blue-50">
+    <section
+      class="flex flex-col text-center items-center font-semibold rounded-b-[30px] gap-5 px-14 py-6 text-white bg-gradient-to-b from-indigo-500 to-indigo-600 mb-5 md:rounded-3xl md:w-[50%] lg:w-[50%] md:mb-0">
+      <h1 class="text-violet-200"> Your Result </h1>
+      <div
+        class="flex flex-col items-center justify-center gap-2 rounded-[50%] bg-gradient-to-b from-indigo-700 to-indigo-600 h-[125px] w-[125px]">
+        <h2 class="text-5xl font-bold"> 76 </h2>
+        <p class="text-violet-400 text-sm"> of 100 </p>
+      </div>
+      <h2 class="font-bold text-2xl"> Great </h2>
+      <p class="text-violet-200 text-md font-medium"> Your scored higher than 65% of the people who have taken these
+        tests. </p>
+    </section>
+
+    <section class="flex flex-col justify-center items-center gap-3 w-4/5 md:w-[50%] lg:w-[50%] md:pr-[20px]">
+      <h1 class="self-start font-bold text-lg"> Summary </h1>
+      <article class="flex flex-row items-center justify-between gap-5 w-full h-[50px] bg-red-50 rounded-lg p-2">
+        <div class="flex flex-row gap-2">
+          <img src="/assets/images/icon-reaction.svg" alt="Icon card Reaction">
+          <h2 class="font-bold text-red-400"> Reaction </h2>
+        </div>
+        <h3 class="align-end font-bold"> 80 <span class="text-gray-500"> / 100 </span> </h3>
+      </article>
+
+      <article class="flex flex-row items-center justify-between gap-5 w-full h-[50px] bg-amber-50 rounded-lg p-2">
+        <div class="flex flex-row gap-2">
+          <img src="/assets/images/icon-memory.svg" alt="Icon card Memory">
+          <h2 class="font-bold text-amber-400"> Memory </h2>
+        </div>
+        <h3 class="align-end font-bold"> 92 <span class="text-gray-500"> / 100 </span> </h3>
+      </article>
+
+      <article class="flex flex-row items-center justify-between gap-5 w-full h-[50px] bg-emerald-50 rounded-lg p-2">
+        <div class="flex flex-row gap-2">
+          <img src="/assets/images/icon-verbal.svg" alt="Icon card verbal">
+          <h2 class="font-bold text-emerald-400"> Verbal </h2>
+        </div>
+        <h3 class="align-end font-bold"> 61 <span class="text-gray-500"> / 100 </span> </h3>
+      </article>
+
+      <article class="flex flex-row items-center justify-between gap-5 w-full h-[50px] bg-indigo-50 rounded-lg p-2">
+        <div class="flex flex-row gap-2">
+          <img src="/assets/images/icon-visual.svg" alt="Icon card visual">
+          <h2 class="font-bold text-indigo-500"> Visual </h2>
+        </div>
+        <h3 class="align-end font-bold"> 80 <span class="text-gray-500"> / 100 </span> </h3>
+      </article>
+      <button class="rounded-[30px] font-bold w-full text-white h-12 bg-slate-700"> Continue </button>
+    </section>
+  </div>
+
+
+  <div class="attribution mt-10">
+
+    <p> Coded by <a href="https://www.github.com/reyniery-carlitos" class="text-blue-500"> Carlos Rubio </a>. </p>
+  </div>
+</body>
+
+</html>
