@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Component Challenge](https://reyniery-carlitos.github.io/summary-component-challenge/)
+- Live Site URL: [Summary Component](https://reyniery-carlitos.github.io/summary-component-challenge/)
 
 ## My process
 
